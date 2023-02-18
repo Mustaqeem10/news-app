@@ -1,0 +1,56 @@
+.cardContainer {
+    width: 433px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardContainer img {
+    width: 90%;
+    height: 268px;
+    object-fit: fill;
+}
+
+.cardContainer h2 {
+    cursor: pointer;
+    margin-top: 3%;
+    width: 90%;
+}
+
+.cardContainer p {
+    cursor: pointer;
+    margin-top: 3%;
+    width: 90%;
+}
+
+.full {
+    width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.fullp {
+    height: 3em;  
+    overflow: hidden;
+}
+
+.cardContainer button {
+    margin-top: 3%;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 70%;
+    font-size: 15px;
+}
+
+.cardContainer a {
+    text-align: center;
+    width: 90%;
+    text-decoration: none;
+    color: inherit;
+}

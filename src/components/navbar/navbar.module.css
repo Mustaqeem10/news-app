@@ -1,0 +1,55 @@
+.navContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5%;
+    padding: 2% 0px;
+    background-color: black;
+    color: #fff;
+}
+
+.listContainer ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.listContainer ul li {
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 40px;
+}
+
+.listContainer ul li:hover {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+.listContainer ul li:last-child {
+    margin-right: 0px;
+}
+
+.searchContainer {
+    white-space: nowrap;
+}
+
+.searchContainer input {
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    padding-left: 12px;
+    outline: none;
+}
+
+.searchContainer button {
+    background-color: limegreen;
+    padding: 10px;
+    width: 27%;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 2%;
+    font-size: 15px;
+    font-weight: 550;
+}
